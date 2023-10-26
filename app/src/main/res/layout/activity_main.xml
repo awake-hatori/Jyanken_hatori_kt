@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:text="じゃーんけーん..."
+        android:textSize="35dp" />
+
+    <ImageView
+        android:src="@drawable/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/j_gu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/image_button_bg"
+            android:scaleType="centerInside"
+            android:src="@drawable/j_gu02"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/j_ch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/image_button_bg"
+            android:scaleType="centerInside"
+            android:src="@drawable/j_ch02"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/j_pa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/image_button_bg"
+            android:scaleType="centerInside"
+            android:src="@drawable/j_pa02"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:text="画像をタップしてね"
+        android:textSize="35dp" />
+
+</LinearLayout>

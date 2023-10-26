@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">じゃんけん_viewBinding_Kt</string>
+    <string name="main">Main Activity</string>
+    <string name="move">MOVE</string>
+    <string name="Result">Result</string>
+    <string name="FinalResult">FinalResult</string>
+    <string name="HalfwayProgress">HalfwayProgress</string>
+    <string name="Title">Title</string>
+    <string name="return_sub">RETURN</string>
+    <string name="Select">Select</string>
+    <string name="OverallScore">%1s勝ち%2s負け%3s引き分け</string>
+</resources>
