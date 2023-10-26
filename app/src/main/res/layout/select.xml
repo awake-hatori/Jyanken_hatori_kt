@@ -9,8 +9,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="対戦形式"
-        android:textSize="30dp"></TextView>
+        android:text="@string/battle_format"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,9 +21,9 @@
             android:id="@+id/mode_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="総当たり戦"
-            android:textSize="30dp"></TextView>
+            android:layout_margin="10sp"
+            android:text="@string/brute_force"
+            android:textSize="30sp" />
 
         <SeekBar
             android:id="@+id/select_mode"
@@ -32,7 +32,6 @@
             android:layout_margin="15dp"
             android:background="#ccc"
             android:max="1" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -56,27 +55,24 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:text="回数：1"
-            android:textSize="30dp"></TextView>
+            android:text="@string/fight_num"
+            android:textSize="30sp" />
 
     </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ルール説明"
-        android:textSize="30dp"></TextView>
+        android:text="@string/rule_explanation"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/rule"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="1.対戦形式は任意で1～10まで対戦出来ます
-        \n2.対戦は勝敗に問わずカウントします
-        \n3.設定した値まで終了しません
-        \n4.結果は総合的に判定します"
-        android:textSize="20dp"></TextView>
+        android:text="@string/brute_force_rule"
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -89,8 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_margin="15dp"
-            android:text="スタート"
-            android:textSize="25dp"></Button>
+            android:text="@string/start"
+            android:textSize="25sp" />
     </LinearLayout>
-
 </LinearLayout>

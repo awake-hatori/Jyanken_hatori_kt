@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:ignore="RtlHardcoded">
 
     <ImageView
         android:id="@+id/char_src"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="1"></ImageView>
+        android:layout_weight="1"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:text="相手"
+        android:text="@string/enemy"
         android:textSize="15sp" />
 
     <ImageView
@@ -26,20 +26,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="1"></ImageView>
+        android:layout_weight="1"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/jyanken_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="25dp" />
+        android:textSize="25sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:text="あなた"
+        android:text="@string/you"
         android:textSize="15sp" />
 
     <ImageView
@@ -47,13 +48,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="1"></ImageView>
+        android:layout_weight="1"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/next_scene"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
         android:layout_gravity="center"
-        android:text="次のシーンへ"></Button>
+        android:layout_margin="30dp"
+        android:text="@string/next_scene" />
 </LinearLayout>

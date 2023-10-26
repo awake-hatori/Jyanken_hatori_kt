@@ -29,7 +29,7 @@ class Title : AppCompatActivity() {
         }
         //総合スコア
         binding.overallScore.text = getString(
-            R.string.OverallScore,
+            R.string.overallScore,
             OverallScoreInfo.getOverallWinCnt(),
             OverallScoreInfo.getOverallLoseCnt(),
             OverallScoreInfo.getOverallDrawCnt()

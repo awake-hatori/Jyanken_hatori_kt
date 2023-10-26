@@ -1,62 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:ignore="RtlHardcoded">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="途中経過......"
-        android:textSize="40dp"
         android:layout_marginTop="20dp"
-        android:gravity="center|top"></TextView>
+        android:gravity="center|top"
+        android:text="@string/halfway_progress"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/game_counter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="戦目だよ"
-        android:textSize="40dp"
         android:layout_marginTop="40dp"
-        android:gravity="center|top"></TextView>
+        android:gravity="center|top"
+        android:text="@string/now_game_num"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/win_count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="勝った数:0"
-        android:textSize="40dp"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
-        android:gravity="left|top"></TextView>
+        android:layout_marginTop="30dp"
+        android:gravity="left|top"
+        android:text="@string/win_num"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/lose_count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="負けた数:0"
-        android:textSize="40dp"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:gravity="left|top"></TextView>
+        android:layout_marginTop="20dp"
+        android:gravity="left|top"
+        android:text="@string/lose_num"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/draw_count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="引き分け数:0"
-        android:textSize="40dp"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:gravity="left|top"></TextView>
+        android:layout_marginTop="20dp"
+        android:gravity="left|top"
+        android:text="@string/draw_num"
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/next_fight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
         android:layout_gravity="center"
-        android:text="次の対戦へ"></Button>
+        android:layout_margin="30sp"
+        android:text="@string/next_fight" />
 
 </LinearLayout>
